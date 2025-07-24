@@ -29,5 +29,4 @@ Este é um projeto desenvolvido com **ReactJS** que permite ao usuário calcular
 - Separação de responsabilidades e organização de arquivos;
 - Integração de lógica com interface de forma fluida.
 
-
-
+Link para vizualização na vercel: https://calculadora-imc-react-weld.vercel.app/
