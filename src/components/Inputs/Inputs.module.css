@@ -1,0 +1,32 @@
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.inputItem {
+    border: 1px solid #000;
+    padding: 16px;
+    flex: 1 1 45%; 
+    box-sizing: border-box;
+}
+
+.inputItem input{
+    width: 100%; /* Responsivo */
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .inputItem {
+        flex: 1 1 100%;
+    }
+    .inputItem input{
+        font-size: 12px;
+    }
+}
