@@ -1,12 +1,33 @@
-# React + Vite
+# Calculadora de IMC (Índice de Massa Corporal)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido com **ReactJS** que permite ao usuário calcular seu IMC (Índice de Massa Corporal) de forma simples e interativa. O sistema fornece também a **classificação do IMC** com base nos valores inseridos.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Formulário com campos para altura (em centímetros) e peso (em kg);
+- Cálculo automático do IMC ao submeter o formulário;
+- Classificação do resultado com base nas faixas oficiais da OMS;
+- Validação de dados e mensagens de erro para inputs inválidos;
+- Limpeza automática dos campos após o envio;
+- Layout responsivo para diferentes tamanhos de tela;
+- Componentização utilizando boas práticas do React.
 
-## Expanding the ESLint configuration
+## 🧠 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ReactJS (useState, componentização)
+- JavaScript (ES6+)
+- CSS Modules
+- HTML semântico
+- Bootstrap para estrutura auxiliar
+
+## 💡 O que aprendi com esse projeto
+
+- Prática de componentização e reaproveitamento de código;
+- Manipulação de estado com hooks (`useState`);
+- Validação de formulários e feedback visual;
+- Estilização responsiva com CSS e media queries;
+- Separação de responsabilidades e organização de arquivos;
+- Integração de lógica com interface de forma fluida.
+
+
+
